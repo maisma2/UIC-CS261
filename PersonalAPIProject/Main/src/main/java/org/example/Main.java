@@ -1,10 +1,11 @@
 package org.example;
 
 import okhttp3.*;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 
 import java.io.IOException;
-
-
 import java.util.Scanner;
 
 /* Creating a program that will convert a word document to a pdf document. First attempt at making a program that
@@ -39,8 +40,9 @@ public class Main {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner in = new Scanner(System.in);
+        JSONObject jsonObject = new JSONObject();
         System.out.println("Enter API key");
         apiKey = in.nextLine();
         System.out.println("Choose from the options below \n " +
@@ -70,9 +72,14 @@ public class Main {
                         + "}";
             try {
                 String response = maininstance.post("https://api.api2convert.com/v2/jobs", jsonPayload);
+                Thread.sleep(10000);
+                Object obj = JSONValue.parse(response);
+                JSONArray array = (JSONArray)obj;
             } catch (IOException e) {
                 System.out.println("Error, IOException");
             }
+
+
         }
     }
 
