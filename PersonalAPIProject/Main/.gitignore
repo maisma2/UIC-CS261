@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/env
+/env
+/client_secret_1075335180534-t6tptgrpp9r7k4pfgs919kbn7fnnf2bq.apps.googleusercontent.com.json
