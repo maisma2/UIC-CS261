@@ -4,17 +4,20 @@ import java.io.File;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
+
 public class FileHandling {
     private String sourcePath;
     private String destinationPath;
     protected Queue<File> files;
 
-    public FileHandling(String sourcePath, String destinationPath){
+    //Everything is done with the call of the constructor
+    public FileHandling(String sourcePath, String destinationPath, Logger logger) throws Exception {
         this.sourcePath = sourcePath;
         this.destinationPath = destinationPath;
         this.files = new ArrayDeque<File>();
+        if(addFiles()) logger.log("Added " + files.size() + " files to the queue");
     }
-    public void findHeicFiles(File folder, Queue<File> files) {
+    private void findHeicFiles(File folder, Queue<File> files) {
         File[] listOfFiles = folder.listFiles();
         if (listOfFiles == null) return;
 
@@ -28,7 +31,8 @@ public class FileHandling {
         }
     }
 
-    public boolean addFiles() {
+
+    private boolean addFiles() {
         //Check all files in the sourcePath for all .heic files and add them to the queue
         File sourceFolder = new File(sourcePath);
         if (!sourceFolder.isDirectory()) {
@@ -44,5 +48,13 @@ public class FileHandling {
     }
     public File getNextFile(){
         return files.poll();
+    }
+
+    public String getSourcePath() {
+        return sourcePath;
+    }
+
+    public String getDestinationPath() {
+        return destinationPath;
     }
 }
