@@ -7,7 +7,10 @@ import okhttp3.*;
 import java.io.IOException;
 import java.util.Scanner;
 
+import org.remoteHandler.ConvertDependencyConversionCaller;
 import org.util.*;
+
+import okhttp3.*;
 
 //Handling HEIC to JPG conversion
 //Uses Google Photo's API and OAuth Clients for image upload for easy batching
@@ -18,8 +21,17 @@ public class Main {
     public static void main(String[] args){
         try{
             final Logger logger = new Logger();
-            FileHandling fileHandling = new FileHandling("src/main/source", "src/main/destination", logger);
+            final ConvertDependencyConversionCaller convertDependencyConversionCaller = new ConvertDependencyConversionCaller();
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter the source path: ");
+            String sourcePath = in.nextLine();
+            System.out.println("Enter the destination path: ");
+            String destinationPath = in.nextLine();
+            FileHandling fileHandling = new FileHandling(sourcePath, destinationPath, logger);
             logger.log("FileHandling object created with source " + fileHandling.getSourcePath() + " and destination " + fileHandling.getDestinationPath());
+            logger.log("Starting conversion process");
+            convertDependencyConversionCaller.ConvertFileJPG(logger, fileHandling.getNextFile(), destinationPath);
+
         }
         catch(Exception e){
             System.out.println(e.getMessage());

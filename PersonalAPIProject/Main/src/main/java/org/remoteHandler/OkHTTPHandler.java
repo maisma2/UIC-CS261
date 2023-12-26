@@ -1,5 +1,5 @@
 package org.remoteHandler;
-
+/*
 import okhttp3.*;
 
 import java.io.IOException;
@@ -30,4 +30,9 @@ public class OkHTTPHandler {
             return response.body().string();
         }
     }
+}
+*/
+
+public class OkHTTPHandler {
+    public static void post(){}
 }
