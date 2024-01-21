@@ -7,7 +7,7 @@ import okhttp3.*;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.remoteHandler.ConvertDependencyConversionCaller;
+import org.remoteHandler.ConvertSDKConversionCaller;
 import org.util.*;
 
 import okhttp3.*;
@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args){
         try{
             final Logger logger = new Logger();
-            final ConvertDependencyConversionCaller convertDependencyConversionCaller = new ConvertDependencyConversionCaller();
+            final ConvertSDKConversionCaller convertSDKConversionCaller = new ConvertSDKConversionCaller();
             Scanner in = new Scanner(System.in);
             System.out.println("Enter the source path: ");
             String sourcePath = in.nextLine();
@@ -30,7 +30,7 @@ public class Main {
             FileHandling fileHandling = new FileHandling(sourcePath, destinationPath, logger);
             logger.log("FileHandling object created with source " + fileHandling.getSourcePath() + " and destination " + fileHandling.getDestinationPath());
             logger.log("Starting conversion process");
-            convertDependencyConversionCaller.ConvertFileJPG(logger, fileHandling.getNextFile(), destinationPath);
+            convertSDKConversionCaller.ConvertFileJPG(logger, fileHandling.getNextFile(), destinationPath);
 
         }
         catch(Exception e){

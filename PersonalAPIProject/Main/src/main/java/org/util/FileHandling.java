@@ -46,9 +46,7 @@ public class FileHandling {
     public boolean queueHasFiles(){
         return !files.isEmpty();
     }
-    public File getNextFile(){
-        return files.poll();
-    }
+    public File getNextFile(){return files.poll();}
 
     public String getSourcePath() {
         return sourcePath;

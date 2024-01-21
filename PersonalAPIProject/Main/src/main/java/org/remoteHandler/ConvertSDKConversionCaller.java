@@ -5,23 +5,19 @@ import com.convertapi.client.Config;
 import com.convertapi.client.ConversionResult;
 import com.convertapi.client.ConvertApi;
 import com.convertapi.client.Param;
-import com.convertapi.client.model.User;
 import org.util.APIConfigUtil;
-import org.util.FileHandling;
 import org.util.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-import io.github.cdimascio.dotenv.*;
-
 //This one uses the Maven dependency that Convert.io offers, it's a much simplier process
-public class ConvertDependencyConversionCaller {
+public class ConvertSDKConversionCaller {
     private static final APIConfigUtil apiConfig = new APIConfigUtil();
-
 
     private boolean LoadAPI(Logger logger) throws ExecutionException, InterruptedException, IOException {
         try{
@@ -35,6 +31,7 @@ public class ConvertDependencyConversionCaller {
             return false;
         }
     }
+
 
     public boolean ConvertFileJPG(Logger logger, File image, String destination) throws ExecutionException, InterruptedException, IOException {
         try {
@@ -54,21 +51,24 @@ public class ConvertDependencyConversionCaller {
 
         return true;
     }
-    /*
+
     public boolean ConvertFilePNG(Logger logger, File image, String destination) throws ExecutionException, InterruptedException, IOException {
         try {
-            CompletableFuture<ConversionResult> result = ConvertApi.convert("heic", "png",
-                    new Param("file", "https://cdn.convertapi.com/cara/testfiles/presentation.pptx")
-            );
+            if(LoadAPI(logger));
+            else throw new IOException("API not loaded");
+            String toDestination = destination + "/" + image.getName() + ".png";
+            CompletableFuture<ConversionResult> result = ConvertApi.convert("heic", "png", new Param("file", Paths.get(image.getPath())));
+            logger.log("File: " + image.getName() + " sent for conversion");
+            result.get().saveFile(Paths.get(destination)).get();
+            logger.log("File: " + image.getName() + " converted");
 
-            Path pdfFile = Paths.get(System.getProperty("java.io.tmpdir") + "/myfile.pdf");
-            result.get().saveFile(pdfFile).get();
         } catch (Exception e) {
             logger.log("File not converted");
+            logger.log(e.getMessage());
             return false;
         }
 
         return true;
     }
-     */
+
 }
