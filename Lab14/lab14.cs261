@@ -1,0 +1,223 @@
+Script started on 2023-11-29 15:20:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/1022" COLUMNS="120" LINES="30"]
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano tex[Kst_file.txt 
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         test_file.txt                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dThis is the last lab for CS261[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[2;31H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ls
+lab14.cs261  test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat test_file.txt 
+This is the last lab for CS261
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 66[K[K770 test_file.txt 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 66[K[K773[K4 test_file.txt 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ls -l test_file.txt 
+-rwxrwxr-- 1 misma2 misma2 31 Nov 29 15:21 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ rm test_file.txt 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ rm test_file.txt [3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano test_file.txt 
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         test_file.txt                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dThis is the last lab for CS261[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[2;31H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+lab14.cs261  test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ lsnano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+This is the last lab for CS261
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat test_file.txt ls[Knano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 774 test_file.txt [6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+-rwxrwxr-- 1 misma2 misma2 31 Nov 29 15:24 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ls -l test_file.txt [4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ rm test_file.txt [3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 774[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano test_file.txt [2Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@ls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho "This is the last lab for CS261" <[K> test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat test_file.txt 
+This is the last lab for CS261
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 744 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ls -p[Kl test_file.txt 
+-rwxr--r-- 1 misma2 misma2 31 Nov 29 15:26 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 764 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 764 test_file.txt[3Pls -l test_file.txt 
+-rwxrw-r-- 1 misma2 misma2 31 Nov 29 15:26 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 775 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 775 test_file.txt[3Pls -l test_file.txt chmod 764 test_file.txt[3Pls -l test_file.txt 
+-rwxrwxr-x 1 misma2 misma2 31 Nov 29 15:26 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 766 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 766 test_file.txt[3Pls -l test_file.txt 
+-rwxrw-rw- 1 misma2 misma2 31 Nov 29 15:26 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 777 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod 777 test_file.txt[3Pls -l test_file.txt 
+-rwxrwxrwx 1 misma2 misma2 31 Nov 29 15:26 test_file.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ m[Knano diff_test1.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         diff_test1.txt                                                   [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dOrange[3dPeach[4dApple[5dBanana[6dMelon[7dCherry[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 6 lines ](B[m[7;7H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano diff_test2.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         diff_test2.txt                                                   [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dApple[3dOrange[4dBanana[5dWatermelon[6dChery[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 5 lines ](B[m[6;6H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ diff -u d[Kdu[Kiff_test1.txt diff_test2.txt 
+--- diff_test1.txt	2023-11-29 15:30:12.934697749 -0600
++++ diff_test2.txt	2023-11-29 15:30:20.154454326 -0600
+@@ -1,6 +1,5 @@
+-Orange
+-Peach
+ Apple
++Orange
+ Banana
+-Melon
+-Cherry
++Watermelon
++Chery
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano grp[Kep_test.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         grep_test.txt                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dThis will be you last lab in CS261.[3dHope you enjoyed course CS261 and the labs in it.[4dBefore you finish this lab please let us known what you learnt from this course.[5dThank you have a nice day.[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[5;27H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -f "LAB"
+grep: LAB: No such file or directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -f "LAB"g"LAB"r"LAB"ep_test.txt"LAB" "LAB"
+grep: LAB: No such file or directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -f grep_test.txt "LAB"[K[K[K[K[K[K
+^X  ^Z
+[1]+  Stopped                 grep -f grep_test.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -o[Ki "[K"LAB" grep_test.txt 
+This will be you last lab in CS261.
+Hope you enjoyed course CS261 and the labs in it.
+Before you finish this lab please let us known what you learnt from this course.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -i "LAB" grep_test.txt
+This will be you last lab in CS261.
+Hope you enjoyed course CS261 and the labs in it.
+Before you finish this lab please let us known what you learnt from this course.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -v "lab" grep_test.txt[1P[1P[1P[1@L[1@A[1@B
+This will be you last lab in CS261.
+Hope you enjoyed course CS261 and the labs in it.
+Before you finish this lab please let us known what you learnt from this course.
+Thank you have a nice day.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -v "LAB" grep_test.txt[1P[1P[1P[1@l[1@a[1@b
+Thank you have a nice day.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ grep -w "lab" grep_test.txt
+This will be you last lab in CS261.
+Before you finish this lab please let us known what you learnt from this course.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo "CS261 will be helpful for future courses such as CS 361.[K." > lab14.text 1[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kb14-[K_1[Ktext 1.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo "Learn to use Linux as this will be helpful in the industry" > lab14_te xt1.txt 2[K[K[K[K[K[K[K2.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo "Mention the lessons you felt useful." > lab14_text3.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab14.text1[K[K[K[K[K[K_text1.txt 
+CS261 will be helpful for future courses such as CS 361.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab14_text1.txt [C[1P[1@2
+Learn to use Linux as this will be helpful in the industry
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab14_text2.txt [1P[1@3
+Mention the lessons you felt useful.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         lab_14_sh1.sh                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[28d[K[1;111H(B[0;7mModified(B[m[2dFILES[32m=(B[0;1m[33m"lab_14_*.txt"[3d(B[0m[32mfor[39m(B[m i [32min[39m(B[m (B[0;1m[31m$FILES(B[0m[32m;[39m(B[m [32mdo[4;8H[39m(B[m// ??.[5d[32mdone[39m(B[m[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[5;5H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ /[K./lab_14_sh1.sh > output.txt
+bash: ./lab_14_sh1.sh: Permission denied
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod+x[K[K +X [K[Kx ./lab_14_sh1.sh 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod +x ./lab_14_sh1.sh ./lab_14_sh1.sh > output.txt
+./lab_14_sh1.sh: line 3: //: Is a directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ;[Klab_14_sh[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K#lab_14_[K[K[K[K[K[K[K[K/[K./lab_14_sh1.sh 
+./lab_14_sh1.sh: line 3: //: Is a directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh 
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 4 lines ](B[m[H(B[0;7m  GNU nano 4.8                                         lab_14_sh1.sh                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[mFILES[32m=(B[0;1m[33m"lab_14_*.txt"[3d(B[0m[32mfor[39m(B[m i [32min[39m(B[m (B[0;1m[31m$FILES(B[0m[32m;[39m(B[m [32mdo[4;8H[39m(B[m// ??.[5d[32mdone[2d[39m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m7[2;27r8[2dM[1;30r[3;1H[?12l[?25h[?25l[A[?12l[?25h[?25l7[2;27r8M[1;30r[3;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[36m#!/bin/bash[28d[39m(B[m[K[2;12H[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 6 lines ](B[m[2;12H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh [3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+./lab_14_sh1.sh: line 5: //: Is a directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh1.sh 
+#!/bin/bash
+
+FILES="lab_14_*.txt"
+for i in $FILES; do
+       // ??.
+done
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh1.sh [2P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@nano [C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C> output.txt[3Pchmod +x ./lab_14_sh1.sh ./lab_14_sh1.sh > output.txt[3Pchmod +x ./lab_14_sh1.sh 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ /[K./lab_14_sh1.sh 
+./lab_14_sh1.sh: line 5: //: Is a directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh 
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 4.8                                         lab_14_sh1.sh                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m[36m#!/bin/bash[4d[39m(B[mFILES[32m=(B[0;1m[33m"lab_14_*.txt"[5d(B[0m[32mfor[39m(B[m i [32min[39m(B[m (B[0;1m[31m$FILES(B[0m[32m;[39m(B[m [32mdo[6;8H[39m(B[m// ??.[7d[32mdone[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[6;14H[?12l[?25h[?25l[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[6;12H.[K[?12l[?25h[?25l.[K[?12l[?25h[?25l.[K[?12l[?25h[?25l.[K[?12l[?25h[?25l.[K[?12l[?25h[?25lc.[?12l[?25h[?25la.[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m.[?12l[?25h[?25l .[?12l[?25h[?25l".[?12l[?25h[?25l[32m$[39m(B[m.[?12l[?25h[?25l(B[0;1m[31m$i[39m(B[m.[?12l[?25h[?25l(B[0;1m[33m"$i"[39m(B[m.[?12l[?25h[?25l .[?12l[?25h[?25l[32m>[39m(B[m.[?12l[?25h[?25l[32m>>[39m(B[m.[?12l[?25h[?25l .[?12l[?25h[?25lo.[?12l[?25h[?25lu.[28d[K[6;22H[?12l[?25h[?25lt.[?12l[?25h[?25lp.[?12l[?25h[?25lu.[?12l[?25h[?25lt.[?12l[?25h[?25l.[?12l[?25h[?25lt[?12l[?25h[?25lx[?12l[?25h[?25lt[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 6 lines ](B[m[6;30H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh [3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cat: 'lab_14_*.txt': No such file or directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./lab_14_sh1.sh [3@nano [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 4.8                                         lab_14_sh1.sh                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m[36m#!/bin/bash[4d[39m(B[mFILES[32m=(B[0;1m[33m"lab_14_*.txt"[5d(B[0m[32mfor[39m(B[m i [32min[39m(B[m (B[0;1m[31m$FILES(B[0m[32m;[39m(B[m [32mdo[6;8H(B[0;1m[34mcat[39m(B[m (B[0;1m[33m"$i"[39m(B[m [32m>>[39m(B[m output.txt[7d[32mdone[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[4;21H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[4;15H(B[0;1m[33mt*.txt"[16G[39m(B[m[?12l[?25h[?25l(B[0;1m[33me*.txt"[17G[39m(B[m[?12l[?25h[?25l(B[0;1m[33mx*.txt"[18G[39m(B[m[?12l[?25h[?25l(B[0;1m[33mt*.txt"[19G[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[33m1*.txt"[12G[39m(B[m[?12l[?25h[?25l(B[0;1m[33m4*.txt"[13G[39m(B[m[?12l[?25h[?25l(B[0;1m[33m_*.txt"[14G[39m(B[m[?12l[?25h[?25l(B[0;1m[33mt*.txt"[28d[39m(B[m[K[4;15H[?12l[?25h[?25l(B[0;1m[33me*.txt"[16G[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[33m(*.txt"[15G[39m(B[m[?12l[?25h[?25l[1P[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 6 lines ](B[m[4;14H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ nano lab_14_sh1.sh [3P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat output.txt 
+CS261 will be helpful for future courses such as CS 361.
+Learn to use Linux as this will be helpful in the industry
+Mention the lessons you felt useful.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh1.sh 
+#!/bin/bash
+
+FILES="lab14_*.txt"
+for i in $FILES; do
+       cat "$i" >> output.txt
+done
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ b[Knano lab_14_sh2.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                         lab_14_sh2.sh                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[28d[K[1;111H(B[0;7mModified(B[m[2d[36m#!/bin/bash[4d[39m(B[ma[32m=(B[0;1m[31m$1[5d[39m(B[mb[32m=[39m(B[m5[7d[32mif[39m(B[m [32m[[[39m(B[m (B[0;1m[31m$a[39m(B[m [32m-eq[39m(B[m (B[0;1m[31m$b[39m(B[m [32m]];[39m(B[m [32mthen[8;4H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"-$b"[9d(B[0m[32melif[39m(B[m [32m[[[39m(B[m (B[0;1m[31m$a[39m(B[m [32m-eq[39m(B[m 0 [32m]];[39m(B[m [32mthen[10;4H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"0"[11d(B[0m[32melse[12d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"No matches"[13d(B[0m[32mfi[14d[39m(B[m[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 12 lines ](B[m[14d[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh2.sh 
+#!/bin/bash
+
+a=$1
+b=5
+
+if [[ $a -eq $b ]]; then
+   echo "-$b"
+elif [[ $a -eq 0 ]]; then
+   echo "0"
+else
+   echo "No matches"
+fi
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./cat+[K_lab_14_sh2[K[K[K[K[K4[K[K[K[K[K[K[K[K[K[K[K/lab_14_sh1.sh [K[K[K[K[K1.sh [K[K[K[K[K2[K[K[K[K[K[K[K[K[K[K[K[Kchk[Kmod +x lab_14_sh2.sh 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./lab_14_sh2.sh 
+0
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh2.sh 
+#!/bin/bash
+
+a=$1
+b=5
+
+if [[ $a -eq $b ]]; then
+   echo "-$b"
+elif [[ $a -eq 0 ]]; then
+   echo "0"
+else
+   echo "No matches"
+fi
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh2.sh 3
+#!/bin/bash
+
+a=$1
+b=5
+
+if [[ $a -eq $b ]]; then
+   echo "-$b"
+elif [[ $a -eq 0 ]]; then
+   echo "0"
+else
+   echo "No matches"
+fi
+cat: 3: No such file or directory
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ cat lab_14_sh2.sh 3[K[2P./[C[C[C[C[C[C[C[C[C[C[C[C[C[C3
+No matches
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ bash lab_14_sh2.sh 4[K3
+No matches
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo $$
+1812523
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ na[K[Knano lab14Kill[K[K[K[K[K[K[K[K[KKillCCode.c
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                          KillCCode.c                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[28d[K[1;111H(B[0;7mModified(B[m[2;5H}[3d}[5d(B[0;1m[36m#include[33m <stdio.h>[6d(B[0m[42m [7d(B[0;1m[34m/* function declaration */[8d(B[0m[32mint[39m(B[m num1=1000;[9d[32mint[39m(B[m main () {[10d[42m [11;4H(B[0;1m[34m/* calling a function to get max value */[12;4H[39m(B[mfunc(num1);[13d[42m [14;4H[49m[35mreturn[39m(B[m 0;[15d}[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 28 lines ](B[m[15d}[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004lmisma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./ k[K[K[K/.[Kki[K[KKi[K[K[K[Kchmod KillCCode.c 
+chmod: missing operand after ‘KillCCode.c’
+Try 'chmod --help' for more information.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./chmod KillCCode.c [1@+[1@x[1@ 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ chmod +x KillCCode.c [3P[C[C[C[C[C[C[C[C[C[C[C[C[2Pnano KillCCode.c[9Pecho $$nano KillCCode.cchmod KillCCode.c [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./KillCCode.c 
+./KillCCode.c: line 4: syntax error near unexpected token `('
+./KillCCode.c: line 4: `void func(float delayInSeconds) {'
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./KillCCode.c [7@chmod +x [C[C[C[C[C[C[C[C[C[C[C[C[7P./[C[C[C[C[C[C[C[C[C[C[C[Cp [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P g c c [C k i [1P [1P K i llCCode.c [C K i l lCCode.c [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P o [1P c 
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ls
+a.out		diff_test2.txt	KillCCode.c  lab_14_sh1.sh  lab14_text1.txt  lab14_text3.txt  test_file.txt
+diff_test1.txt	grep_test.txt	lab14.cs261  lab_14_sh2.sh  lab14_text2.txt  output.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ Ki[K[K./a.out 
+^X  ^Z
+[2]+  Stopped                 ./a.out
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo $$
+1812523
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo $$./a.out [1Pecho $$[K[K[K[K[K[K[K./ao[K.out 
+^C
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ echo $$
+1812523
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ jobs
+[1]-  Stopped                 grep -f grep_test.txt
+[2]+  Stopped                 ./a.out
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ps -ef | grep kill_test
+mwade24  1819592 1778993 99 15:58 pts/908  00:04:21 ./kill_test
+misma2   1820302 1812523  0 16:03 pts/1027 00:00:00 grep kill_test
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ ./ [Ka [K.out
+^C
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ jobs
+[1]-  Stopped                 grep -f grep_test.txt
+[2]+  Stopped                 ./a.out
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ jobs./a.out
+Killed
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ exit
+exit
+There are stopped jobs.
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ jobs -l
+[1]- 1815224 Stopped                 grep -f grep_test.txt
+[2]+ 1820107 Stopped                 ./a.out
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ kill -9 1815224
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ kill -9 1815224[K[K[K[K[K[K[K1820107
+[1]-  Killed                  grep -f grep_test.txt
+misma2@cs-sys3:~/Documents/CS261Labs/Lab14$ se[K[Kexit
+exit
+
+Script done on 2023-11-29 16:13:03-06:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,9 @@
+Script started on 2023-11-15 15:28:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/993" COLUMNS="120" LINES="30"]
+misma2@cs-sys3:~/Documents/CS261Labs/Lab12/cache_simulator_original$ stop
+
+Command 'stop' not found, but there are 18 similar ones.
+
+misma2@cs-sys3:~/Documents/CS261Labs/Lab12/cache_simulator_original$ exit
+exit
+
+Script done on 2023-11-15 15:28:47-06:00 [COMMAND_EXIT_CODE="127"]

@@ -1,0 +1,3 @@
+CS261 will be helpful for future courses such as CS 361.
+Learn to use Linux as this will be helpful in the industry
+Mention the lessons you felt useful.
